@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_portfolio_header_sections",
+  "info": {
+    "displayName": "header-section",
+    "icon": "house",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "default": "John Doe",
+      "required": true
+    },
+    "caption": {
+      "type": "string",
+      "default": "Software Engineer",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "I'm a software engineer looking for new opportunities!"
+    },
+    "headshot": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_portfolio_projects",
+  "info": {
+    "displayName": "projects-section",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true,
+      "default": "Projects"
+    },
+    "description": {
+      "type": "text",
+      "default": "Some projects I've worked on!",
+      "required": true
+    },
+    "projects": {
+      "displayName": "project-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.project-card",
+      "required": true
+    }
+  }
+}

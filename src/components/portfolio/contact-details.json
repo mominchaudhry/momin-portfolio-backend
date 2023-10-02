@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_portfolio_contact_details",
+  "info": {
+    "displayName": "contact-details",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "phone_number": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
